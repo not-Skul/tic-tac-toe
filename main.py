@@ -21,7 +21,7 @@ def chance():
         char = "X"
     elif count % 2 != 0:
         char = "O"
-    pos = input(f"Enter the number you want to place your {char}: ")
+    pos = input(f"Enter the number where you want to place your {char}: ")
     if pos in inputs:
         print("The position is occupied,Please give an Empty position")
         chance()
